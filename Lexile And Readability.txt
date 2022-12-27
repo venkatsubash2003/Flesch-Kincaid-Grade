@@ -1,0 +1,81 @@
+Libraries:-
+
+nltk.corpus - natural language token
+
+lingfeat - weebit corpus
+
+AI based NLP methods ->
+1.Lexico Semantic - https://www.phil-fak.uni-duesseldorf.de/fileadmin/Vhosts/SFB991/c08/Andreou_subm_The_lexical_semantic_framework_for_morphology.pdf
+https://en.wikipedia.org/wiki/Lexical_semantics
+
+2.weebit corpora- https://spacy.io/universe/project/lingfeat
+
+3.Newsela corpora - http://www.lrec-conf.org/proceedings/lrec2018/pdf/1063.pdf
+
+Formulas:-
+1.The Flesch formulas :-
+206.835 − (1.015 × ASL) − (84.6 × ASW)
+
+2.Automated readability index:-
+ARI = 4.71 * (letters/words) + 0.5 * (words/sent_no) - 21.43
+
+2.The Dale Chall formula:-
+0.1579*(PDW) + 0.0496*(ASL) + 3.6365
+
+3.The Gunning Fog formula
+Grade level= 0.4 * ( (average sentence length) + (percentage of Hard Words) )
+
+4.Fry readability graph:
+
+
+5.McLaughlin's SMOG formula
+SMOG grading = 3 + √polysyllable count.
+
+6.The forcast formula
+Grade level = 20 − (N / 10)
+Where N = number of single-syllable words in a 150-word sample
+
+7.The Gloub syntactic Density Score
+
+8.Flesch kincaid grading scale(Most accurate out of all the formulas) -
+
+round((0.39 * words)/punctuations + (11.8 * syllables)/words-15.59)
+
+Reference of Readability calculators:-
+1.https://goodcalculators.com/flesch-kincaid-calculator/(flesch-kincaid calculator)
+2.https://charactercalculator.com/flesch-reading-ease/(flesch-kincaid calculator)
+3.https://www.mymathtables.com/readability/flesch-kincaid-grade-level-calculator.html(flesch-kincaid calculator)
+In the late Vedic period, around the 6th century BCE, the small states and chiefdoms of the Ganges Plain and the north-western regions had consolidated into 16 major oligarchies and monarchies that were known as the mahajanapadas.[90][91] The emerging urbanisation gave rise to non-Vedic religious movements, two of which became independent religions. Jainism came into prominence during the life of its exemplar, Mahavira.[92] Buddhism, based on the teachings of Gautama Buddha, attracted followers from all social classes excepting the middle class; chronicling the life of the Buddha was central to the beginnings of recorded history in India.[93][94][95] In an age of increasing urban wealth, both religions held up renunciation as an ideal,[96] and both established long-lasting monastic traditions. Politically, by the 3rd century BCE, the kingdom of Magadha had annexed or reduced other states to emerge as the Mauryan Empire.[97] The empire was once thought to have controlled most of the subcontinent except the far south, but its core regions are now thought to have been separated by large autonomous areas.[98][99] The Mauryan kings are known as much for their empire-building and determined management of public life as for Ashoka's renunciation of militarism and far-flung advocacy of the Buddhist dhamma.[100][101]
+
+documentations and research papers:-
+
+lexico semantic Framework --- https://www.phil-fak.uni-duesseldorf.de/fileadmin/Vhosts/SFB991/c08/Andreou_subm_The_lexical_semantic_framework_for_morphology.pdf
+
+lexico semantic Framwork --- https://www.researchgate.net/publication/326335567_A_Lexico-Semantic_Pattern_Language_for_Learning_Ontology_Instances_from_Text
+
+lexico semantic Framwork ---https://aclanthology.org/W04-1801.pdf
+
+weebit corpora --- https://aclanthology.org/W17-5013.pdf
+
+Newsela corpora --- http://www.lrec-conf.org/proceedings/lrec2018/pdf/1063.pdf
+
+Flesch_kincaid_grading_level(most-accurate),Flesch_ease_scores and the other formulas can be calculated using the following packages
+1.Readability
+2.textstat - https://www.kaggle.com/code/fshenbayh/readability
+3.textatistic - https://www.kaggle.com/code/fshenbayh/readability
+
+
+The formula to correlate RIT scores and Lexile measures is not publicly available.​ 
+if lexile range is 100-250 then lexile measure is 100 + 200 and 250 - 50 i.e 200.
+
+
+4.Manually using the formulas
+
+Every calculator in the internet is giving different results 
+
+website revealing facts about readability formulas and reasons not to use them - https://www.uxmatters.com/mt/archives/2019/07/readability-formulas-7-reasons-to-avoid-them-and-what-to-do-instead.php
+How Lexile scores are generated?
+NWEA Research collaborated with MetaMetrics (developers of the Lexile) to develop an algorithm to calculate the Lexile measure and range from the RIT scale. We improved the precision and range of our link to the Lexile scale through a new linking study, effective Fall 2018. The formula to correlate RIT scores and Lexile measures is not publicly available.​ 
+
+FKGL Reference for Grade and Score values - https://www.mymathtables.com/readability/flesch-kincaid-grade-level-calculator.html
+
